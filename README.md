@@ -25,6 +25,6 @@ A pre-trained DenseNet121 model is used as a fixed feature extractor. The classi
 A pre-trained DenseNet121 model is fine-tuned on the weather images. Most of the layers in the DenseNet model are frozen, and the classifier is replaced with a new one.
 
 ## References
-Ajayi, Gbeminiyi (2018), “Multi-class Weather Dataset for Image Classification”, Mendeley Data, V1, doi: 10.17632/4drtyfjtfy.1
-PyTorch Documentation. Available at: https://pytorch.org/docs/stable/index.html
-DenseNet Models. Available at: https://pytorch.org/hub/pytorch_vision_densenet/
+1. Ajayi, Gbeminiyi (2018), “Multi-class Weather Dataset for Image Classification”, Mendeley Data, V1, doi: 10.17632/4drtyfjtfy.1.
+2. PyTorch Documentation. Available at: https://pytorch.org/docs/stable/index.html
+3. DenseNet Models. Available at: https://pytorch.org/hub/pytorch_vision_densenet/
