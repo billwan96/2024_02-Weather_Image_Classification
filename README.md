@@ -8,6 +8,7 @@ The project employs PyTorch to implement a Convolutional Neural Network (CNN) mo
 2. Leveraging a pre-trained (DenseNet121) model as a feature extractor.
 3. Leveraging a pre-trained (DenseNet121) model and fine-tuning it.
 These models have achieved a satisfactory result, with 0.8 validation accuracy for the model built from scratch, and over 0.95 validation accuracy after leveraging a pre-trained model.
+
 Details of the analysis can be found [here](https://github.com/billwan96/2024_02-Weather_Image_Classification/blob/main/analysis.ipynb)
 
 ## Dataset
