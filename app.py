@@ -51,6 +51,7 @@ data_transforms = transforms.Compose([
     transforms.ToTensor(),
 ])
 
+@st.cache_resource
 def load_model():
     # Define the model architecture
     densenet = models.densenet121(pretrained=False)
