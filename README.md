@@ -2,7 +2,7 @@
 
 This project focuses on the classification of images depicting various weather conditions. The dataset used is the “Multi-class Weather Dataset for Image Classification” (Ajayi, Gbeminiyi, 2018, Mendeley Data, V1, doi: 10.17632/4drtyfjtfy.1).
 
-A streamlit app is available for uploading photos and doing classification: (https://billwan96-2024-02-weather-image-classification-app-6uhgeg.streamlit.app/)
+A streamlit app is available for uploading photos and running the classification task: (https://billwan96-2024-02-weather-image-classification-app-6uhgeg.streamlit.app/)
 
 ## Overview
 The project employs PyTorch to implement a Convolutional Neural Network (CNN) model for the classification task. The approach to the classification task is threefold:
