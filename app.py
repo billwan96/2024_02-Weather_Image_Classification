@@ -15,7 +15,7 @@ st.markdown('''
 ''')
 
 st.markdown('''
-# Instructions
+### Instructions
 
 This web application uses a pre-trained deep learning model to classify the weather condition based on the image you upload. Here's how it works:
 
@@ -25,7 +25,7 @@ This web application uses a pre-trained deep learning model to classify the weat
 
 3. **Make Predictions**: The preprocessed image tensor is then passed through the model. The model, which has been trained on thousands of images of different weather conditions, makes a prediction about the weather condition in the image.
 
-4. **Display Results**: The application displays the predicted class (i.e., the weather condition) and the probability associated with the prediction. The probability indicates the model's confidence in its prediction. If the probability is less than 0.95, the model is considered unsure about its prediction.
+4. **Display Results**: The application displays the predicted class (i.e., the weather condition) and the probability associated with the prediction. The probability indicates the model's confidence in its prediction.
 
 Please note that the model's predictions are based on the patterns it learned during training and may not always be accurate. Always refer to reliable sources for weather information.
 ''')
