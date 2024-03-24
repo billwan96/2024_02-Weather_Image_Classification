@@ -14,6 +14,23 @@ st.markdown('''
 ---
 ''')
 
+st.markdown('''
+# Instructions
+
+This web application uses a pre-trained deep learning model to classify the weather condition based on the image you upload. Here's how it works:
+
+1. **Upload an Image**: Click on the "Choose an image..." button to upload an image of a weather condition. The image should be in .jpg or .png format.
+
+2. **Image Preprocessing**: Once an image is uploaded, it is converted to RGB and displayed on the screen. When you click on the 'Predict' button, the image is resized to 200x200 pixels and transformed into a tensor, which is a format the model can interpret.
+
+3. **Make Predictions**: The preprocessed image tensor is then passed through the model. The model, which has been trained on thousands of images of different weather conditions, makes a prediction about the weather condition in the image.
+
+4. **Display Results**: The application displays the predicted class (i.e., the weather condition) and the probability associated with the prediction. The probability indicates the model's confidence in its prediction. If the probability is less than 0.95, the model is considered unsure about its prediction.
+
+Please note that the model's predictions are based on the patterns it learned during training and may not always be accurate. Always refer to reliable sources for weather information.
+''')
+
+
 # Define your CNN class
 def linear_block(input_size, output_size):
     return nn.Sequential(
